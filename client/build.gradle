@@ -1,0 +1,17 @@
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+group = 'com.loobo'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile group: 'org.apache.thrift', name: 'libthrift', version: '0.10.0'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+}
